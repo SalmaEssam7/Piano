@@ -1,0 +1,47 @@
+  <!---
+ * Created by Salma Essam  on 01/07/2024.
+  -->
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Piano</title>
+          <link  rel="stylesheet" href="Piano.css">
+          <script src="Piano.js"defer></script>
+             <!--  <script src="Scripts/HangMan.js"defer></script>-->
+      </head>
+      <body>
+        <div class="Wrapper">
+            <header>
+                <h2>Playable PIANO</h2>
+                <div class="column VolumeSlider">
+                    <span>Volume</span> <input type="range" min="0" max="100" value="0.5" step="any">
+                </div>
+                <div class="column KeyCheckbox">
+                    <span>Show Keys</span> <input type="checkbox" checked>
+                </div>
+            </header>
+            <ul class="PianoKeys">
+                <li class="key White" data-key="a"><span>a</span></li>
+                <li class="key Black" data-key="w"><span>w</span></li>
+                <li class="key White" data-key="s"><span>s</span></li>
+                <li class="key Black" data-key="e"><span>e</span></li>
+                <li class="key White" data-key="d"><span>d</span></li>
+                <li class="key White" data-key="f"><span>f</span></li>
+                <li class="key Black" data-key="t"><span>t</span></li>
+                <li class="key White" data-key="g"><span>g</span></li>
+                <li class="key Black" data-key="y"><span>y</span></li>
+                <li class="key White" data-key="h"><span>h</span></li>
+                <li class="key Black" data-key="u"><span>u</span></li>
+                <li class="key White" data-key="j"><span>j</span></li>
+                <li class="key White" data-key="k"><span>k</span></li>
+                <li class="key Black" data-key="o"><span>o</span></li>
+                <li class="key White" data-key="l"><span>l</span></li>
+                <li class="key Black" data-key="p"><span>p</span></li>
+                <li class="key White" data-key=";"><span>;</span></li>
+               
+            </ul>
+        </div>
+      </body>
+  </html>
